@@ -6,14 +6,11 @@ Ce dépôt GitHub contient le challenge organisé par **data354** pour évaluer 
 
 - [À propos de data354](#à-propos-de-data354)
 - [Présentation du Challenge](#présentation-du-challenge)
-- [Livrables](#livrables)
-- [Deadline](#deadline)
-- [Ressources](#ressources)
+
 - [Structure du Repository](#structure-du-repository)
 - [Comment Démarrer](#comment-démarrer)
-- [Contribution](#contribution)
-- [Licence](#licence)
-- [Contact](#contact)
+
+- [Ressources](#ressources)
 
 ## À propos de data354
 
@@ -30,23 +27,9 @@ OpenAI a révolutionné l'IA avec des agents conversationnels basés sur les Lar
 - **Développer une interface web** : Pour interagir avec l'agent.
 
 **Documents OHADA à utiliser** : 
-- Acte uniforme sur les contrats de transport de marchandises.
-- Acte uniforme sur le droit de l'arbitrage.
+- [Acte uniforme sur les contrats de transport de marchandises](/).
+- [Acte uniforme sur le droit de l'arbitrage](/).
 
-## Livrables
-
-- Lien vers un repo GitHub avec le code source et une documentation claire.
-
-## Deadline
-
-Soumission dans les **2 semaines** suivant la réception du challenge.
-
-## Ressources
-
-- [LangChain Documentation](https://python.langchain.com/docs/get-started/introduction)
-- [LangGraph Documentation](https://langchain-ai.github.io/langgraph/)
-- [Chainlit Documentation](https://docs.chainlit.io/get-started/overview)
-- [LlamaIndex Documentation](https://docs.llamaindex.ai/en/stable/)
 
 ## Structure du Repository
 
@@ -60,15 +43,30 @@ Soumission dans les **2 semaines** suivant la réception du challenge.
 
 ## Comment Démarrer
 
-1.
+1. Cloner le dépôt:
 
-    ```sh
-    git clone https://github.com/votre-utilisateur/hiring-challenge.git
-    cd hiring-challenge
-    ```
-1.
+```sh
+git clone https://github.com/votre-utilisateur/hiring-challenge.git
+cd hiring-challenge
+```
 
-1.
+1. Installer les dépendances:
 
+```sh
+pip install -r requirements.txt
 
-## Contribution
+```
+
+1. Lancer l'application:
+
+```sh
+streamlit run
+
+```
+
+## Ressources
+
+- [LangChain Documentation](https://python.langchain.com/docs/get-started/introduction)
+- [LangGraph Documentation](https://langchain-ai.github.io/langgraph/)
+- [Chainlit Documentation](https://docs.chainlit.io/get-started/overview)
+- [LlamaIndex Documentation](https://docs.llamaindex.ai/en/stable/)
