@@ -1,0 +1,8 @@
+streamlit
+gradio
+pandas
+python-dotenv
+neo4j-graphrag
+langchain_openai
+langchain_ollama
+# !pip install  neo4j-graphrag  neo4j
