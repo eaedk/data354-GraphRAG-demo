@@ -1,0 +1,5 @@
+.venv
+.env
+**checkpoint**
+**cache**
+**cache**/
