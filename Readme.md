@@ -26,45 +26,73 @@ OpenAI a révolutionné l'IA avec des agents conversationnels basés sur les Lar
 - **Créer une chaîne GraphRAG** : Intégration de graphes de connaissances.
 - **Développer une interface web** : Pour interagir avec l'agent.
 
-**Documents OHADA à utiliser** : 
-- [Acte uniforme sur les contrats de transport de marchandises](/).
-- [Acte uniforme sur le droit de l'arbitrage](/).
+**Documents OHADA à utiliser**
 
+- [Acte uniforme sur les contrats de transport de marchandises](https://www.ohada.com/telechargement/actes-uniformes/AUCTMR-2003_fr.pdf)
+
+- [Acte uniforme sur le droit de l'arbitrage](https://www.ohada.com/telechargement/actes-uniformes/AUA-1999_fr.pdf).
 
 ## Structure du Repository
 
 ```plaintext
-├── data/
-├── src/
-├── docs/
-├── requirements.txt
-└── LICENSE
+.
+├── .env.sample // Rename to `.env` and add your credentials # .
+├── Readme.md
+├── app.py
+├── assets
+│   └── images
+│       ├── Screenshot_exceeded_quota.jpg
+│       └── Screenshot_initial_interface.png
+├── code
+│   ├── __init__.py
+│   ├── assets
+│   │   └── images
+│   │       ├── assistant-avatar.png
+│   │       └── user-avatar.png
+│   ├── config.py
+│   ├── preprocessing.py
+│   └── utils.py
+├── notebooks
+└── requirements.txt
+
 ```
 
 ## Comment Démarrer
 
+Pour lancer l'app, executez les commandes suivantes.
+
 1. Cloner le dépôt:
 
 ```sh
-git clone https://github.com/votre-utilisateur/hiring-challenge.git
-cd hiring-challenge
+git clone https://github.com/eaedk/data354-GraphRAG-demo.git
+cd data354-GraphRAG-demo
 ```
 
-1. Installer les dépendances:
+2. Installer les dépendances:
 
 ```sh
 pip install -r requirements.txt
 
 ```
 
-1. Lancer l'application:
+3. Lancer l'application:
 
 ```sh
-streamlit run
+streamlit run app.py
 
+```
+Si tout a marché comme prévu, voici la sortie que vous devriez avoir.
+
+```plaintext
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8510
+  Network URL: http://XXX.XXX.XXX.XXX:8510
 ```
 
 ## Ressources
+
+Voulez-vous explorer les RAGs en général ou particulièrement les GraphRAGs, voilà des ressources pour commencer.
 
 - [LangChain Documentation](https://python.langchain.com/docs/get-started/introduction)
 - [LangGraph Documentation](https://langchain-ai.github.io/langgraph/)
