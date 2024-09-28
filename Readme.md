@@ -32,6 +32,11 @@ OpenAI a révolutionné l'IA avec des agents conversationnels basés sur les Lar
 
 - [Acte uniforme sur le droit de l'arbitrage](https://www.ohada.com/telechargement/actes-uniformes/AUA-1999_fr.pdf).
 
+<!-- ## Dev Recap
+
+![GraphRAG image](./assets/images/GraphRAG.jpg)
+ -->
+
 ## Structure du Repository
 
 ```plaintext
@@ -61,6 +66,12 @@ OpenAI a révolutionné l'IA avec des agents conversationnels basés sur les Lar
 
 Pour lancer l'app, executez les commandes suivantes.
 
+**Prérequis**: 
+- Python: Avoir Python 3.10+ installé(testé avec Python 3.11).
+- OpenAI: Avoir une clé API valide à enseigner dans le fichier `.env`. Suivez l'ex de `'.env.sample`.
+
+
+
 1. Cloner le dépôt:
 
 ```sh
@@ -69,6 +80,7 @@ cd data354-GraphRAG-demo
 ```
 
 2. Installer les dépendances:
+Vous pouvez le faire directement ou créer un environnement virtuel.
 
 ```sh
 pip install -r requirements.txt
@@ -89,6 +101,12 @@ Si tout a marché comme prévu, voici la sortie que vous devriez avoir.
   Local URL: http://localhost:8510
   Network URL: http://XXX.XXX.XXX.XXX:8510
 ```
+
+Puis vous devriez avoir l'interface ci-dessous dans votre navigateur.
+
+![GraphRAG image](./assets/images/Screenshot_initial_interface.png)
+
+Vous pouvez maintenant poser des questions. 
 
 ## Ressources
 
