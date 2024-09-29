@@ -1,11 +1,14 @@
 # Hiring Challenge: Construction d'un Agent Conversationnel Spécialisé
 
+![GraphRAG image](./assets/images/GraphRAG.jpg)
+
 Ce dépôt GitHub contient le challenge organisé par **data354** pour évaluer vos compétences en développement d'agents conversationnels spécialisés.
 
 ## Table des Matières
 
 - [À propos de data354](#à-propos-de-data354)
 - [Présentation du Challenge](#présentation-du-challenge)
+- [Recapitulatif du Challenge](#recapitulatif-du-challenge)
 
 - [Structure du Repository](#structure-du-repository)
 - [Comment Démarrer](#comment-démarrer)
@@ -32,10 +35,10 @@ OpenAI a révolutionné l'IA avec des agents conversationnels basés sur les Lar
 
 - [Acte uniforme sur le droit de l'arbitrage](https://www.ohada.com/telechargement/actes-uniformes/AUA-1999_fr.pdf).
 
-<!-- ## Dev Recap
+## Recapitulatif du Challenge
 
-![GraphRAG image](./assets/images/GraphRAG.jpg)
- -->
+[![Recap Video](http://img.youtube.com/vi/HSBM2pFCLBI/0.jpg)](https://www.youtube.com/watch?v=HSBM2pFCLBI "Recap du Challenge en Video")
+
 
 ## Structure du Repository
 
