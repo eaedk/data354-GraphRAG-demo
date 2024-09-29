@@ -36,8 +36,12 @@ OpenAI a révolutionné l'IA avec des agents conversationnels basés sur les Lar
 - [Acte uniforme sur le droit de l'arbitrage](https://www.ohada.com/telechargement/actes-uniformes/AUA-1999_fr.pdf).
 
 ## Recapitulatif du Challenge
+
 Dans cette video je partage mon retour d'experience concernant le Challenge.
+
 [![Recap Video](https://img.youtube.com/vi/HSBM2pFCLBI/0.jpg)](https://www.youtube.com/watch?v=HSBM2pFCLBI "Recap du Challenge en Video")
+
+Accédez ici au [`fichier recap markdown présenté au cours de la vidéo`](./recap.md)
 
 
 ## Structure du Repository
@@ -49,6 +53,7 @@ Dans cette video je partage mon retour d'experience concernant le Challenge.
 ├── app.py
 ├── assets
 │   └── images
+│       ├── GraphRAG.jpg
 │       ├── Screenshot_exceeded_quota.jpg
 │       └── Screenshot_initial_interface.png
 ├── code
@@ -61,6 +66,7 @@ Dans cette video je partage mon retour d'experience concernant le Challenge.
 │   ├── preprocessing.py
 │   └── utils.py
 ├── notebooks
+├── recap.md
 └── requirements.txt
 
 ```
