@@ -37,7 +37,7 @@ OpenAI a révolutionné l'IA avec des agents conversationnels basés sur les Lar
 
 ## Recapitulatif du Challenge
 
-[![Recap Video](http://img.youtube.com/vi/HSBM2pFCLBI/0.jpg)](https://www.youtube.com/watch?v=HSBM2pFCLBI "Recap du Challenge en Video")
+[![Recap Video](https://img.youtube.com/vi/HSBM2pFCLBI/0.jpg)](https://www.youtube.com/watch?v=HSBM2pFCLBI "Recap du Challenge en Video")
 
 
 ## Structure du Repository
